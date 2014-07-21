@@ -20,3 +20,8 @@ numerosPrimos = (cantidad) ->
   console.log resultado
 
 numerosPrimos(15)
+
+modulo = (x,y) ->
+  res = x % y
+
+console.log modulo(4,2)
