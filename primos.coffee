@@ -20,3 +20,7 @@ numerosPrimos = (cantidad) ->
   console.log resultado
 
 numerosPrimos(15)
+
+multiplicacion = (n1, n2) ->
+  res = n1 * n2
+
