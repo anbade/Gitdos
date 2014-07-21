@@ -21,7 +21,19 @@ numerosPrimos = (cantidad) ->
 
 numerosPrimos(15)
 
+
 modulo = (x,y) ->
   res = x % y
 
 console.log modulo(4,2)
+
+suma = (a,b) ->
+  res = a+b
+  console.log(res)
+suma(2,3)
+
+resta = (a,b) ->
+  res = a-b
+  console.log(res)
+resta(6,3)
+
