@@ -19,4 +19,7 @@ numerosPrimos = (cantidad) ->
     i++
   console.log resultado
 
+divisionNros = (dividendo, divisor)->
+    Math.floor(dividendo/divisor)
+
 numerosPrimos(15)
