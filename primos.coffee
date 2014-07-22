@@ -19,8 +19,18 @@ numerosPrimos = (cantidad) ->
     i++
   console.log resultado
 
+divisionNros = (dividendo, divisor)->
+    Math.floor(dividendo/divisor)
+
 numerosPrimos(15)
 
+multiplicacion = (n1, n2) ->
+  res = n1 * n2
+
+modulo = (x,y) ->
+  res = x % y
+
+console.log modulo(4,2)
 suma = (a,b) ->
   res = a+b
   console.log(res)
@@ -30,3 +40,4 @@ resta = (a,b) ->
   res = a-b
   console.log(res)
 resta(6,3)
+
